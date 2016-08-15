@@ -1016,7 +1016,7 @@ if(typeof define == 'function'){
     //seajs or requirejs environment
     define(function(require){
         factory(
-            require('../../jquery/jquery.js')
+            require('jquery')
         );
     });
 }else{

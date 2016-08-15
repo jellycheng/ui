@@ -3,7 +3,7 @@ if(typeof define == 'function'){
     //seajs or requirejs environment
     define(function(require, exports, module){
         return factory(
-            require('../jquery/jquery.js'),
+            require('jquery'),
             require('../class/class.js'),
             require('../util/util.js'),
             require('../droplist/droplist.js')
@@ -11,7 +11,7 @@ if(typeof define == 'function'){
     });
 }else if(typeof module === 'object'){
     module.exports = factory(
-        require('../jquery/jquery.js'),
+        require('jquery'),
         require('../class/class.js'),
         require('../util/util.js'),
         require('../droplist/droplist.js')
