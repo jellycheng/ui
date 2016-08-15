@@ -1,5 +1,8 @@
 {
     "name": "ui",
-    "dependencies": {},
+    "desc": "超轻量级ui组件库",
+    "dependencies": {
+        "fis-components/jquery": "2.2.3"
+    },
     "version": "2.0.0"
 }
